@@ -47,7 +47,7 @@ class Node:
 
 class Puzzle:
     def __init__(self,size):                                                #Initialize the puzzle size by the specifying
-        self.n = size                                                       # size
+        self.n = size                                                       # size of matrix 
         self.open = []                                                      # open list
         self.closed = []                                                    # closed list
 
@@ -73,6 +73,7 @@ class Puzzle:
     def astar(self):
         print("Enter the start state matrix ")                            
         start = self.accept()                                               # accept start state matrix
+        
         print("Enter the goal state matrix ")                         
         goal = self.accept()                                                # accept goal state matrix
 

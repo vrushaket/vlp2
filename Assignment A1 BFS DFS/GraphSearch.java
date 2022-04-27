@@ -103,8 +103,10 @@ public class GraphSearch{
         while(run){
             System.out.print("\nEnter Search Element : ");
             int searchVertex = sc.nextInt();
+
             System.out.print("Breadth First Search : "); 
             graph.BFS(0,searchVertex);
+            
             System.out.print("\n\nDepth First Search : "); 
             graph.DFS(0,searchVertex);
 

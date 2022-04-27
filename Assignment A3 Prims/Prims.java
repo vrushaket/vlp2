@@ -28,7 +28,7 @@ class PrimsMST{
 
     void primsAlgo(int graph[][]){
         int parent[] = new int[vertexCount];            // Array to store constructed MST
-        int vertex[] = new int[vertexCount];               // Key values used to pick minimum weight edge in cut
+        int vertex[] = new int[vertexCount];            // Key values used to pick minimum weight edge in cut
         Boolean visited[] = new Boolean[vertexCount];   // To represent set of vertices included in MST
         
         for(int i=0; i< vertexCount; i++){              // Initialize all keys as INFINITE
