@@ -65,7 +65,8 @@ class Coloring {
                     
 public class colorgraph{
   public static void main(String args[]){ 
-    Vertex vertices[]= {new Vertex("A"), new Vertex("B"), new Vertex("C"), new Vertex("D"),new Vertex("E"),new Vertex("F")};
+    Vertex vertices[]= {
+      new Vertex("A"), new Vertex("B"), new Vertex("C"), new Vertex("D"),new Vertex("E"),new Vertex("F")};
 
     vertices[0].addNeighbor(vertices[1]);
     vertices[0].addNeighbor(vertices[3]);
